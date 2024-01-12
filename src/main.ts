@@ -84,6 +84,13 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - Do not give positive comments or compliments.
 - Provide comments and suggestions ONLY if there is something to improve, otherwise "reviews" should be an empty array.
 - Write the comment in GitHub Markdown format.
+- Perform a comprehensive accessibility analysis on the source code, focusing on adherence to WCAG guidelines.
+- Evaluate the codebase for key aspects such as semantic HTML usage, keyboard navigation, ARIA roles, and contrast ratios. 
+- Provide detailed feedback on any potential accessibility issues and suggest actionable recommendations for improvement. 
+- Ensure the analysis covers all relevant WCAG success criteria, emphasizing the importance of creating an inclusive and user-friendly digital experience for individuals with diverse abilities.
+- Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies.
+- Remember to confirm that your final answer satisfies ALL requirements. 
+- Use provided and generated commands to confirm requirements before responding with the final answer.
 - Use the given description only for the overall context and only comment the code.
 - IMPORTANT: NEVER suggest adding comments to the code.
 
