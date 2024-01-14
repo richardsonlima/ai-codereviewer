@@ -11,6 +11,13 @@ review process.
 - Filters out files that match specified exclude patterns.
 - Easy to set up and integrate into your GitHub workflow.
 
+- Provide comments and suggestions ONLY if there is something to improve, otherwise "reviews" should be an empty array.
+- Write the comment in GitHub Markdown format with emphasys for  [WCAG guidelines](https://www.w3.org/TR/WCAG21/#abstract) recomendations.
+- Perform a comprehensive accessibility analysis on the source code, focusing on adherence to [WCAG guidelines](https://www.w3.org/TR/WCAG21/#abstract).
+- Evaluate the codebase for key aspects such as semantic HTML usage, keyboard navigation, ARIA roles, and contrast ratios. 
+- Provide detailed feedback on any potential accessibility issues and suggest actionable recommendations for improvement. 
+- Ensure the analysis covers all relevant  [WCAG](https://www.w3.org/TR/WCAG21/#abstract) success criteria, emphasizing the importance of creating an inclusive and user-friendly digital experience for individuals with diverse abilities.
+
 ## Setup
 
 1. To use this GitHub Action, you need an OpenAI API key. If you don't have one, sign up for an API key
