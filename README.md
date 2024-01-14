@@ -1,8 +1,6 @@
 # AI WCAG Code Reviewer
 
-AI WCAG Code Reviewer is a GitHub Action that leverages OpenAI's GPT-4 API to provide intelligent feedback and suggestions on
-your pull requests. This powerful tool helps improve code quality and saves developers time by automating the code
-review process.
+AI WCAG Code Reviewer is a GitHub Action that leverages OpenAI's GPT-4 API to provide intelligent feedback and suggestions following the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#abstract) covers a wide range of recommendations for making Web content more accessible on your pull requests. This powerful tool helps improve code quality and saves developers time by automating the code review process.
 
 ## Features
 
