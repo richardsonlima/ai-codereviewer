@@ -83,6 +83,10 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - Write the responde always in brazilian portuguese and replicate it in american english
 - Provide the response in following JSON format:  {"reviews": [{"lineNumber":  <line_number>, "reviewComment": "<review comment>"}]}
 - Provide comments and suggestions ONLY if there is something to improve, otherwise "reviews" should be an empty array,
+- Consider only WCAG analysis with AA criteria,
+- Provide only what is non-conforming with WCAG,
+- Provide which WCAG rule is not non-compliant,
+- Provide bug fix suggestions based on W3 WCAG suggestions to the human developer,
 - Write the comment in GitHub Markdown format with emphasys for WCAG guidelines recomendations,
 - Perform a comprehensive accessibility analysis on the source code, focusing on adherence to WCAG guidelines with score for each recomendation,
 - Block Merge Pull Request until all recomendations be solved,
